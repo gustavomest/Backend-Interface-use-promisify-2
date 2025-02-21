@@ -1,0 +1,20 @@
+{
+  "name": "windows-service-api",
+  "version": "1.0.0",
+  "description": "API para controlar serviços do Windows",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "16.4.7",
+    "express": "^4.21.2",
+    "node-windows": "^1.0.0-beta.8",
+    "nodemon": "^3.1.9"
+  },
+  "author": "F4G - Sistemas e Soluções",
+  "license": "MIT"
+}

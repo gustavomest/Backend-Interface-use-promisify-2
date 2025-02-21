@@ -1,0 +1,12 @@
+@apiurl = http://localhost:3000
+@controller = service
+
+
+### PUT 
+PUT {{apiurl}}/{{controller}}/start HTTP/1.0
+
+### PUT 
+PUT {{apiurl}}/{{controller}}/stop HTTP/1.0
+
+### GET 
+GET  {{apiurl}}/{{controller}}/Spooler HTTP/1.0
